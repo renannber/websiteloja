@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: white;
     color: black;
-    font-family: Montserrat;
+    font-family: Montserrat; /* mantém sua fonte original */
   }
   
   header {
@@ -24,8 +24,45 @@ body {
     color: white;
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 20px;
     border-radius: 5px;
     transition: background 0.3s;
+  }
+  
+  .frases-home {
+    height: 100vh; /* ocupa toda a altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  /* Bloco interno que empilha frase e botão */
+  .frases-home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #201c5f;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    font-family: Montserrat; /* mantém a mesma fonte aqui também */
+  }
+  
+  #saiba-mais {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #201c5f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #saiba-mais:hover {
+    background-color: #3a36a0;
   }
   
