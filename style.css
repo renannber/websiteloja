@@ -97,7 +97,11 @@ body {
     text-align: center;
     padding: 1rem 0;
   }
-  footer div {
+  footer div  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-bottom: 10px;
   }
   
@@ -105,7 +109,7 @@ body {
     filter: brightness(0) invert(1);
     width: 32px;         /* tamanho dos ícones */
     height: 32px;
-    margin: 0 10px;      /* espaçamento entre ícones */
+    margin: 0 15px;      /* espaçamento entre ícones */
     transition: transform 0.3s;
     vertical-align: middle;
     border-radius: 6px;  /* modifica as bordas cantos, deixando levemente arredondados */
