@@ -97,6 +97,24 @@ body {
     text-align: center;
     padding: 1rem 0;
   }
+  footer div {
+    margin-bottom: 10px;
+  }
+  
+  footer a img {
+    filter: brightness(0) invert(1);
+    width: 32px;         /* tamanho dos ícones */
+    height: 32px;
+    margin: 0 10px;      /* espaçamento entre ícones */
+    transition: transform 0.3s;
+    vertical-align: middle;
+    border-radius: 6px;  /* modifica as bordas cantos, deixando levemente arredondados */
+  }
+  
+  footer a img:hover {
+    transform: scale(1.1);
+  }
+
  .cadastro {
   padding: 80px 20px;
   background-color: #f4f4f4;
@@ -183,4 +201,40 @@ body {
   .cadastro-container button:hover {
     background-color: #3a36a0;
   }
-  
+  /* Responsividade para tablets e celulares */
+@media (max-width: 768px) {
+  .cabecalho-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .frases-home-content {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .sobre-conteudo h2 {
+    font-size: 2rem;
+  }
+
+  .sobre-conteudo p {
+    font-size: 1.2rem;
+  }
+
+  .cadastro-conteudo,
+  .cadastro-container {
+    max-width: 90%;
+  }
+
+  footer a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 6px;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}
