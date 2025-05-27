@@ -111,9 +111,9 @@ body {
   
   footer a img {
     filter: brightness(0) invert(1);
-    width: 32px;         /* tamanho dos ícones */
+    width: 32px;         /* usado para definir o tamanho dos icones */
     height: 32px;
-    margin: 0 15px;      /* espaçamento entre ícones */
+    margin: 0 15px;      /* espaçamento entre icones */
     transition: transform 0.3s;
     vertical-align: middle;
     border-radius: 6px;  /* modifica as bordas cantos, deixando levemente arredondados */
