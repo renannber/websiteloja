@@ -52,3 +52,10 @@ function cadastrar() {
 
     messageDiv.style.display = "block";
 }
+
+'user strict'; // é usado para mostrar o problema caso tenha 
+
+// verifica se o cep é valido
+const eNumero = (numero) => /^[0-9]+$/.teste(numero);    //expressão para ver se está entre 0 á 9
+
+const cepValido = (cep) => cep.length == 8 && eNumero(cep); // testa para ver se so tem numero e se é de 0 á 9
