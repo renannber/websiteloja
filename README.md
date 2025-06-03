@@ -7,6 +7,9 @@ A Luno nasceu com o propósito de simplificar. Acreditamos que menos é mais,
 e que o design deve servir à funcionalidade.
  Criamos experiências limpas, objetivas e conscientes para marcas e pessoas que valorizam a essência.
 
+## Tecnologias ultilizadas 
+
+HTML, CSS, JavaScript, git e API de Cep.
 
 ## Uso da API no projeto 
 
