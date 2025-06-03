@@ -62,7 +62,7 @@ const cepValido = (cep) => cep.length == 8 && eNumero(cep); // testa para ver se
 
 const pesquisarCep = async() => {
     limparFormulario();
-    const url = `http://viacep.com.br/ws/${cep.value}/json/`; //o ${cep.value} é usado para trocar o cep para o que for usado no cadastro
+    const url = `https://viacep.com.br/ws/${cep.value}/json/`; //o ${cep.value} é usado para trocar o cep para o que for usado no cadastro
       if(cepValido(cep.value))
     {
         const dados = await fetch(url); // await é uma pausa para verificar se o fetch vai conseguir da um retorno 
